@@ -1,20 +1,29 @@
+
+# fork hongyangAndroid 的baseAdapter库，添加androidX支持
+
+
+
+
+
 # base-adapter
 Android 万能的Adapter for ListView,RecyclerView,GridView等，支持多种Item类型的情况。
 
 
 ## 引入
 
-### ForRecyclerView
+ 1.引入jitpack
+ ```
+ allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+2.添加以下库
+```
+implementation 'com.github.meijingkang:baseAdapter:v1.0.0'
+```
 
-```
-compile 'com.zhy:base-rvadapter:3.0.3'
-```
-
-### ForListView
-
-```
-compile 'com.zhy:base-adapter:3.0.3'
-```
 
 
 ## 使用
